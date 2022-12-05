@@ -1,5 +1,4 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import avg
 
 spark = SparkSession.builder.appName("sql-excersize").getOrCreate()
 
